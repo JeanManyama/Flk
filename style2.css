@@ -1,0 +1,266 @@
+
+.kimbanguisme
+
+{
+	
+
+	padding-top: 50px ;
+	color: #fca311;
+	background
+	
+
+}
+		
+.ecrit_accueil
+{
+	color: white;
+	font-size: 18px;
+}
+
+
+.lesphotos
+{
+	background-color: white;
+	padding: 100px;
+}
+
+.lesphotos h2
+{
+
+	text-align: center;
+	margin-bottom: 50px;
+} 
+
+.lesphotos div
+
+{
+
+	display: flex;
+	flex-direction: rows;
+	gap: 20px;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 15px;
+
+}
+
+.accueil
+{
+
+	display: flex;
+	flex-direction: row;
+	max-width: 1200px;
+	align-items: flex-start;
+	margin: auto;
+
+}
+
+.accueil h1
+{
+	margin-bottom: 15px;
+}
+
+.accueil p
+{
+	margin-bottom: 30px;
+}
+
+.accueil div
+{
+	padding-right: 80px;
+}
+
+.Enregistrement h2
+{
+color: white;
+text-align: center;
+margin-bottom: 50px;
+
+}
+
+
+
+
+
+/* Formulaire*/
+
+
+form
+{
+	display: flex;
+	flex-direction: column;
+	max-width: 1000px;
+	margin: auto;
+	color: white;
+
+}
+
+.form_Sex_carte
+{
+
+	display: flex;
+	flex-direction: row;
+	gap: 100px;
+}
+
+.col_sex_crt
+
+{
+	display: flex;
+	flex: ;
+	flex-direction: column;
+	margin-bottom: 20px;
+
+
+}
+
+.form_nom_prenom
+{
+	display: flex;
+	flex-direction: row;
+	gap : 300px
+}
+.col
+{
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+}
+
+.form_date_group
+{
+	display: flex;
+	flex-direction: row;
+	gap: 300px;
+
+}
+
+.coll
+{
+	flex : 1;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+
+}
+
+
+.form_adre_cdpost
+{
+	display: flex;
+	flex-direction: row;
+	gap: 100px;
+
+}
+
+.col_adrss
+{
+	
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+
+}
+.form_tel_email
+{
+	display: flex;
+	flex-direction: row;
+	gap: 300px;
+	
+}
+
+.col_tel_email
+{
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	margin-bottom: 20px;
+
+}
+
+input, select
+{
+	padding: 5px;
+	border: none;
+	border-radius: 5px;
+}
+
+label 
+
+{
+
+	margin-bottom: 10px;
+}
+
+input[type='submit'] {
+
+
+	width: 200px;
+	margin: auto;
+	margin-top: 40px;
+
+}
+
+
+
+
+/* Responsiv*/
+
+
+
+
+@media screen and (max-width:996px)
+{
+
+		.accueil
+		{
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.accueil div
+		{
+			padding-right: 0;
+			text-align: center;
+			order: 2;
+		}
+
+		.accueil img
+		{
+			order: 1;
+			margin-bottom: 20px;
+			width: 100%;
+		}
+		.lesphotos
+		{
+			padding: 20px;
+
+
+		}
+
+		.lesphotos div 
+		{
+			flex-direction: column;
+
+		}
+
+		.Enregistrement
+		{
+			padding: 50px 20px;
+
+		}
+
+		.Enregistrement
+		{
+			flex-direction: column;
+			gap: 0;
+		}
+
+
+}
+
+
+
+

@@ -1,0 +1,169 @@
+
+
+body
+{
+	font-size: 17px;
+}
+
+
+.enreg1
+{
+	 display: inline-block;
+    background: linear-gradient(300deg, #83c5be, #283618);
+    color: white;
+   border-radius: 20px;
+   padding: 10px 20px;
+   box-shadow: 6px 6px 25px rgba(0, 100, 0, 0.5);
+   margin-left: 64%;
+   margin-bottom: 10px;
+   
+
+}
+
+#lienEglis
+{
+		margin-left: 0px;
+}
+
+
+
+
+
+
+.enreg1:hover
+{
+
+    text-decoration: none;
+    background: linear-gradient(#606c38, #40916c);
+} 
+
+
+
+.Accueil_AproposEns
+
+{
+	margin: auto;
+}
+
+.Accueil_Apropos
+{
+
+	color: white;
+	border-right: 1px solid #fb8b24 ;
+	border-bottom: 1px solid #e36414;
+	padding: 50px;
+	width: 50%;
+	margin: auto;
+	margin-bottom: 10px;
+}
+
+.Accueil_Apropos h2
+{
+	margin-top: 15px;
+}
+
+
+.Accueil_Apropos ul
+
+{
+	margin-top: 15px	;
+}
+
+
+h1
+
+{
+	text-align: center;
+}
+
+h2
+{
+	color: #bc6c25;
+	text-align: center;
+}
+
+
+td,th
+{
+
+	border:1px solid white;
+	padding: 15px;
+
+
+}
+
+
+
+
+
+table
+{
+
+
+
+
+	color: white;
+	text-align: justify-all;
+	
+	
+	border-collapse: collapse;
+	width: 90%;
+	margin: auto;
+	margin-top: 50px;
+
+}
+
+
+
+thead tr
+{
+	background-color: #283618;
+}
+
+tfoot tr
+
+{
+	background-color: #283618;
+}
+
+
+
+
+@media screen and (max-width : 996px )
+{
+
+    header nav 
+    {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    img nav header
+    {
+        margin-bottom: 20px 20px;
+
+    }
+
+    header, footer
+    {
+        padding: 20px 20px;
+
+    }
+    h1 
+    {
+        font-size: 32px
+    }
+
+    section
+    {
+        padding: 50px 20px 50px 20px;
+    }
+
+    nav a
+    {
+        margin-left: 10px;
+        margin-right: 10px;
+
+    }
+}
